@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 def hello():
-    names = ['Bilal', 'Vaibhav', 'Varun']
+    names = ['Bilal', 'Vaibhav', 'Varun', 'Harshal']
     return {"users":names}
 
 @app.get('/login/{name}')
